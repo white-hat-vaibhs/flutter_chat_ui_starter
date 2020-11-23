@@ -22,69 +22,71 @@ final User currentUser =
     User(id: 0, name: 'Current User', imageUrl: 'assets/images/greg.jpg');
 
 // USERS
-final User greg = User(id: 1, name: 'Greg', imageUrl: 'assets/images/greg.jpg');
-final User james =
-    User(id: 2, name: 'James', imageUrl: 'assets/images/james.jpg');
-final User john = User(id: 3, name: 'John', imageUrl: 'assets/images/john.jpg');
-final User olivia =
-    User(id: 4, name: 'Olivia', imageUrl: 'assets/images/olivia.jpg');
-final User sam = User(id: 5, name: 'Sam', imageUrl: 'assets/images/sam.jpg');
-final User sophia =
-    User(id: 6, name: 'Sophia', imageUrl: 'assets/images/sophia.jpg');
-final User steven =
-    User(id: 7, name: 'Steven', imageUrl: 'assets/images/steven.jpg');
+final User fotty =
+    User(id: 1, name: 'Fotty Seven', imageUrl: 'assets/images/fotty.jpeg');
+final User divine =
+    User(id: 2, name: 'Divine', imageUrl: 'assets/images/divine.jpeg');
+final User ikka =
+    User(id: 3, name: 'Ikka', imageUrl: 'assets/images/ikka.jpeg');
+final User raja =
+    User(id: 4, name: 'Raja Kumari', imageUrl: 'assets/images/raja.jpeg');
+final User evil =
+    User(id: 5, name: ' D\'Evil', imageUrl: 'assets/images/devil.jpeg');
+final User shah =
+    User(id: 6, name: 'Shah Rule', imageUrl: 'assets/images/download1.jpeg');
+final User dee = User(id: 7, name: 'Dee MC', imageUrl: 'assets/images/mc.jpg');
 
 // FAVORITE CONTACTS
-List<User> favorites = [sam, steven, olivia, john, greg];
+List<User> favorites = [divine, evil, dee, raja, ikka, fotty];
 
 // EXAMPLE CHATS ON HOME SCREEN
 List<Message> chats = [
   Message(
-    sender: james,
+    sender: divine,
     time: '5:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: 'Jake poooch apne baare me',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: olivia,
+    sender: raja,
     time: '4:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: 'Dil hai hindustani 🇮🇳',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: john,
+    sender: ikka,
     time: '3:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: 'Me hu Bahut tez, 🏍 Ninja Kawasaki',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: sophia,
+    sender: shah,
     time: '2:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: 'You know I got that Vibe 🤩 , Vibe hai ',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: steven,
+    sender: dee,
     time: '1:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: 'Look at me now 🦄',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: sam,
+    sender: evil,
     time: '12:30 PM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: '🎤Bhai tera haq se track per machata hai',
     isLiked: false,
     unread: false,
   ),
   Message(
-    sender: greg,
+    sender: fotty,
     time: '11:30 AM',
-    text: 'Hey, how\'s it going? What did you do today?',
+    text: 'Bhai tera prime number',
     isLiked: false,
     unread: false,
   ),
@@ -93,7 +95,7 @@ List<Message> chats = [
 // EXAMPLE MESSAGES IN CHAT SCREEN
 List<Message> messages = [
   Message(
-    sender: james,
+    sender: divine,
     time: '5:30 PM',
     text: 'Hey, how\'s it going? What did you do today?',
     isLiked: true,
@@ -107,14 +109,14 @@ List<Message> messages = [
     unread: true,
   ),
   Message(
-    sender: james,
+    sender: divine,
     time: '3:45 PM',
     text: 'How\'s the doggo?',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: james,
+    sender: divine,
     time: '3:15 PM',
     text: 'All the food',
     isLiked: true,
@@ -128,7 +130,7 @@ List<Message> messages = [
     unread: true,
   ),
   Message(
-    sender: james,
+    sender: divine,
     time: '2:00 PM',
     text: 'I ate so much food today.',
     isLiked: false,

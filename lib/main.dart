@@ -8,10 +8,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Vaibhav Chat UI',
+      title: 'Gully Concept-Vaibhav',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.yellow,
         accentColor: Color(0xFFFEF9EB),
       ),
       home: HomeScreen(),
